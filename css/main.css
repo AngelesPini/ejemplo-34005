@@ -1,0 +1,294 @@
+@import url(toastify-js/src/toastify.css);
+nav {
+  background-color: #740001;
+  color: #ffffff; }
+  nav a {
+    text-decoration: none;
+    font-size: 18px; }
+
+header h1 {
+  margin-top: 500px; }
+
+header h2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px; }
+
+header .cartelIndex {
+  display: inline-block;
+  animation: fadeInDownBig;
+  animation-duration: 1s; }
+
+main {
+  width: 100%;
+  z-index: 100;
+  margin: 0%;
+  padding: 0%; }
+  main #mivideo {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    top: -10px;
+    width: 100%;
+    z-index: 100;
+    background: white;
+    border: white solid 2px; }
+  main .toast:not(.show) {
+    display: block; }
+  main .modal-none {
+    display: none; }
+  main #personajes {
+    display: flex;
+    flex-wrap: wrap; }
+  main .card1 {
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px; }
+    main .card1 img {
+      margin-left: 50px; }
+    main .card1 h3 {
+      margin-left: 400px;
+      font-size: 36px;
+      color: #740001;
+      margin-top: -280px; }
+    main .card1 small.first {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray; }
+    main .card1 p {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray; }
+    main .card1 small {
+      margin-left: 370px; }
+    main .card1 span {
+      margin-left: 00px;
+      font-size: 20px;
+      color: #740001; }
+    main .card1 ul li {
+      list-style-type: none; }
+  main .cd {
+    display: flex;
+    justify-content: space-evenly; }
+  main .btn {
+    background-color: #ffffff;
+    color: #740001;
+    border: solid 2px;
+    border-color: #efba30;
+    width: 250px;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 30px; }
+  main .btn:hover {
+    background-color: #ffffff;
+    outline: #740001;
+    color: #efba30; }
+  main .buscador-paquetes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px; }
+    main .buscador-paquetes select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px; }
+  main .buscador-vuelos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px; }
+    main .buscador-vuelos select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px; }
+  main .tit {
+    margin-top: 30px;
+    color: #740001; }
+  main .cards {
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px; }
+    main .cards img {
+      margin-left: 50px; }
+    main .cards h3 {
+      margin-left: 400px;
+      font-size: 36px;
+      color: #740001;
+      margin-top: -280px; }
+    main .cards small.first {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray; }
+    main .cards p {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray; }
+    main .cards small {
+      margin-left: 370px; }
+    main .cards span {
+      margin-left: 00px;
+      font-size: 20px;
+      color: #740001; }
+    main .cards ul li {
+      list-style-type: none; }
+  main .cd {
+    display: flex;
+    justify-content: space-evenly; }
+  main .btn {
+    background-color: #ffffff;
+    color: #740001;
+    border: solid 2px;
+    border-color: #efba30;
+    width: 250px;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 30px; }
+  main .btn:hover {
+    background-color: #740001;
+    outline: #ffffff;
+    color: #efba30; }
+  main .buscador-paquetes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px; }
+    main .buscador-paquetes select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px; }
+  main .buscador-vuelos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px; }
+    main .buscador-vuelos select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px; }
+  main .boton-modal hr {
+    color: #740001;
+    height: 3px; }
+  main .boton-modal h4 {
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: "Barlow", sans-serif;
+    color: #740001; }
+  main .boton-modal p {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif; }
+  main .boton-modal .precioSelec {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 30px; }
+  main .boton-modal .btn-eliminar {
+    border: solid 1px;
+    border-color: gray;
+    background-color: #ffffff;
+    margin-left: 380px;
+    border-radius: 9px;
+    margin-top: -500px; }
+  main .boton-modal .btn-eliminar:hover {
+    background-color: #efba30; }
+  main .boton-modal .btn-primary {
+    margin-left: auto; }
+  main .boton-modal .btn-secondary {
+    margin-left: auto; }
+  main .boton-modal .resaltado {
+    font-weight: 600; }
+  main section.fetch .personajes .container {
+    margin-left: 200px;
+    margin-right: 100px; }
+  main section.fetch .personajes .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px; }
+
+@media (min-width: 200px) and (max-width: 768px) {
+  main .boton-modal .boton {
+    margin-left: 80px;
+    margin-right: auto; }
+  main .boton-modal .cards {
+    display: none;
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 200px;
+    margin-top: 10px; }
+    main .boton-modal .cards img {
+      margin-left: auto;
+      width: 30%;
+      height: 30%; }
+    main .boton-modal .cards .icons {
+      width: 10px;
+      height: 10px; }
+    main .boton-modal .cards h3 {
+      margin-left: 120px;
+      font-size: 14px;
+      color: #740001; }
+    main .boton-modal .cards small.first {
+      display: none; }
+    main .boton-modal .cards p {
+      font-size: 8px;
+      font-weight: 100;
+      color: gray;
+      margin-left: 50px; }
+    main .boton-modal .cards small {
+      margin-left: 111px; }
+    main .boton-modal .cards span {
+      margin-left: 00px;
+      font-size: 12px;
+      color: #740001; }
+    main .boton-modal .cards ul {
+      margin-top: 50px; }
+      main .boton-modal .cards ul li {
+        margin-left: 50px;
+        margin-right: 50px;
+        list-style-type: none; } }
+
+body {
+  background-image: url(../multimedia/imagenes/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }

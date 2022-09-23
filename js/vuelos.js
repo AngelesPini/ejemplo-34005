@@ -1,0 +1,18 @@
+let vuelos = [
+{id: 1, clase: "turista", aerolínea: "Delta Airlines" ,cantidad: 1,precio: 800, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 2, clase: "turista", aerolínea: "LATAM",cantidad: 1,precio: 1300, img: "../multimedia/imagenes/lago.jpg"},
+{id: 3, clase: "turista", aerolínea: "United Airlines",cantidad: 1,precio: 1320, img: "../multimedia/imagenes/pasarela.jpg"},
+{id: 4, clase: "turista", aerolínea: "American Airlines",cantidad: 1,precio: 1450, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 5, clase: "ejecutivo", aerolínea: "Delta Airlines",cantidad: 1,precio:1500, img: "../multimedia/imagenes/lago.jpg"},
+{id: 6, clase: "ejecutivo", aerolínea: "LATAM" ,cantidad: 1,precio: 2400, img: "../multimedia/imagenes/pasarela.jpg"},
+{id: 7, clase: "ejecutivo", aerolínea:"United Airlines" ,cantidad: 1,precio: 2500, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 8, clase: "ejecutivo", aerolínea: "American Airlines",cantidad: 1,precio: 2750, img: "../multimedia/imagenes/lago.jpg"},
+{id: 10, clase: "1st class", aerolínea: "Delta Airlines" ,cantidad: 1,precio: 3000, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 12, clase: "1st class", aerolínea: "LATAM",cantidad: 1,precio: 3150, img: "../multimedia/imagenes/lago.jpg"},
+{id: 13, clase: "1st class", aerolínea: "United Airlines",cantidad: 1,precio: 3120, img: "../multimedia/imagenes/pasarela.jpg"},
+{id: 14, clase: "1st class", aerolínea: "American Airlines",cantidad: 1,precio: 4050, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 15, clase: "premium economy", aerolínea: "Delta Airlines",cantidad: 1,precio:1500, img: "../multimedia/imagenes/lago.jpg"},
+{id: 16, clase: "premium economy", aerolínea: "LATAM" ,cantidad: 1,precio: 1400, img: "../multimedia/imagenes/pasarela.jpg"},
+{id: 17, clase: "premium economy", aerolínea:"United Airlines" ,cantidad: 1,precio: 1560, img: "../multimedia/imagenes/mapa.jpg"},
+{id: 18, clase: "premium economy", aerolínea: "American Airlines",cantidad: 1,precio: 1750, img: "../multimedia/imagenes/lago.jpg"},
+]

@@ -1,0 +1,12 @@
+@import "nav";
+@import "header";
+@import "main";
+@import "footer";
+@import "responsive";
+
+body {
+  background-image: url(../multimedia/imagenes/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Wizarding World | Viajá con nosotros</title>
+</head>
+<body id="element">
+    <header>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: #ffffff;">Wizarding World</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/fetch.html" class="nav-link" style="color: #ffffff;">Fetch</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#paquetes" style="color: #ffffff;">Paquetes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#vuelos" style="color: #ffffff;">Vuelos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/checklist.html" style="color: #ffffff;">Checklist</a>
+                </li>
+              </ul>
+        </nav>
+        <h1 class="p-3 m-2 text-center">Hoy empieza tu aventura hacia el increíble mundo de</h1>
+        <h2><img src="multimedia/imagenes/harry-potter.png" alt="harryPotter" class="cartelIndex"></h2>
+    </header>
+    <main>
+
+    <!-- FACTURA -->
+        <section class=" boton-modal">
+            <button id="boton-elegidos" class="btn boton" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ><img src="./UI-kit/icons8-hotel-check-out-30.png" alt=""><span id="agregados"></span></button>
+            <!-- factura -->
+            <div class="modal modal-factura" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-viaje modal-content">
+                    <div class="modal-body">
+                    <h4>Servicios elegidos</h4>
+                    <hr>
+                    <div id="serviciosElegidos"></div>
+                    <hr>
+                    <p class="precioSelec"><img src="./UI-kit/icons8-sale-price-tag-30.png" alt=""> Precio total en dólares: usd$ <span id="precioTotal"></span> </p>
+
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                    <button type="button" class="btn btn-primary" id="pagar">PAGAR</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+        <!-- =============== -->
+        <video autoplay muted loop id="mivideo" class="position-relative bottom-0">
+            <source src="multimedia/videos/Harry Potter y la Piedra Filosofal - Carta - Momentos de Película.mp4" type="video/mp4">
+         </video>
+
+<!--  Paquetes -->
+
+        <section>
+            <h2 class="text-center tit">Encuentra tu paquete ideal!</h2>
+            <div class="buscador-paquetes">
+                <select id="buscadorPaquetes" class="text-center">
+                    <option value="all">Todos</option>
+                    <option value="si">Con hotel</option>
+                    <option value="no">Sin hotel</option>
+
+                </select>
+            </div>
+        </section>
+        <section id="paquetes">
+            <!-- stock paquetes -->
+        </section>
+        <hr>
+                <!-- Vuelos -->
+        <section>
+            <h2 class="text-center tit">Enuentra el mejor vuelo!</h2>
+            <div class="buscador-vuelos">
+                <select  id="buscadorVuelos">
+                    <option value="all">Todos</option>
+                    <option value="turista">Turista</option>
+                    <option value="premium economy">Premium</option>
+                    <option value="ejecutivo">Ejecutivo</option>
+                    <option value="1st class">Primera Clase</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="vuelos">
+            <!-- stock vuelos -->
+        </section>
+
+    </main>
+    <footer class="text-center p-5">
+        Wizarding World Argentina | Todos los derechos reservados | Desarrollado por <a href="http://www.angelespini.com/"> Anshula Mistic</a> | Aguanten las milanesas
+    </footer>
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- main js -->
+    <script src="./js/travel.js"></script>
+    <script src="./js/vuelos.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/modal.js"></script>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

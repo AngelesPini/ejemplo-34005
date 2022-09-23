@@ -1,0 +1,283 @@
+@import "toastify-js/src/toastify.css";
+
+main {
+  width: 100%;
+  z-index: 100;
+  margin: 0%;
+  padding: 0%;
+
+  #mivideo {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    top: -10px;
+    width: 100%;
+    z-index: 100;
+    background: white;
+    border: white solid 2px;
+  }
+  .toast:not(.show) {
+    display: block;
+  }
+  .modal-none {
+    display: none;
+  }
+  #personajes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  // paquetes
+  .card1 {
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+    img {
+      margin-left: 50px;
+    }
+    h3 {
+      margin-left: 400px;
+      font-size: 36px;
+      color: #740001;
+      margin-top: -280px;
+    }
+    small.first {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray;
+    }
+    p {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray;
+    }
+    small {
+      margin-left: 370px;
+    }
+    span {
+      margin-left: 00px;
+      font-size: 20px;
+      color: #740001;
+    }
+    ul li {
+      list-style-type: none;
+    }
+  }
+  .cd {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: #740001;
+    border: solid 2px;
+    border-color: #efba30;
+    width: 250px;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .btn:hover {
+    background-color: #ffffff;
+    outline: #740001;
+    color: #efba30;
+  }
+  .buscador-paquetes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px;
+    select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px;
+    }
+  }
+  .buscador-vuelos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px;
+    select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px;
+    }
+  }
+  .tit {
+    margin-top: 30px;
+    color: #740001;
+  }
+  // vuelos
+  .cards {
+    justify-content: center;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+    img {
+      margin-left: 50px;
+    }
+    h3 {
+      margin-left: 400px;
+      font-size: 36px;
+      color: #740001;
+      margin-top: -280px;
+    }
+    small.first {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray;
+    }
+    p {
+      margin-left: 400px;
+      font-size: 12px;
+      font-weight: 100;
+      color: gray;
+    }
+    small {
+      margin-left: 370px;
+    }
+    span {
+      margin-left: 00px;
+      font-size: 20px;
+      color: #740001;
+    }
+    ul li {
+      list-style-type: none;
+    }
+  }
+
+  .cd {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: #740001;
+    border: solid 2px;
+    border-color: #efba30;
+    width: 250px;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .btn:hover {
+    background-color: #740001;
+    outline: #ffffff;
+    color: #efba30;
+  }
+  .buscador-paquetes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px;
+    select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px;
+    }
+  }
+  .buscador-vuelos {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border: solid 2px;
+    border-color: #740001;
+    border-radius: 9px;
+    select {
+      width: 298px;
+      height: 50px;
+      border-color: #740001;
+      border-radius: 9px;
+    }
+  }
+  .boton-modal {
+    hr {
+      color: #740001;
+      height: 3px;
+    }
+    h4 {
+      margin-top: 20px;
+      font-size: 32px;
+      font-family: "Barlow", sans-serif;
+      color: #740001;
+    }
+    p {
+      font-size: 18px;
+      font-family: "Barlow", sans-serif;
+    }
+    .precioSelec {
+      font-size: 26px;
+      font-weight: 500;
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+    .btn-eliminar {
+      border: solid 1px;
+      border-color: gray;
+      background-color: #ffffff;
+      margin-left: 380px;
+      border-radius: 9px;
+      margin-top: -500px;
+    }
+    .btn-eliminar:hover {
+      background-color: #efba30;
+    }
+
+    .btn-primary {
+      margin-left: auto;
+    }
+    .btn-secondary {
+      margin-left: auto;
+    }
+    .resaltado {
+      font-weight: 600;
+    }
+  }
+  section.fetch {
+    .personajes {
+      .container {
+        margin-left: 200px;
+        margin-right: 100px;
+      }
+      .card {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+      // acá hice lo que pude, me enloqueci tratando de darle estilos y claramente no resultó
+    }
+  }
+}
